@@ -28,7 +28,7 @@ avg_values = {
 }
 
 # --- load model ---
-with open(r"C:\Users\NAIRA\Desktop\NTI Project\NTI_Project\New_model.pkl", "rb") as f:
+with open("New_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("🔥 Daily Calories Needed Prediction")
